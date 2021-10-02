@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_heart_rate_result"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="@color/blue"
+   >
+
+
+    <TextView
+        android:id="@+id/HRR"
+        android:layout_width="80dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="20dp"
+        android:text=""
+        android:textColor="@color/red"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView4"
+        android:layout_width="230dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="40dp"
+        android:textStyle="bold"
+        android:text="@string/heart_rate_result_string"
+        android:textColor="@color/red"
+        android:textSize="20sp"/>
+
+</RelativeLayout>

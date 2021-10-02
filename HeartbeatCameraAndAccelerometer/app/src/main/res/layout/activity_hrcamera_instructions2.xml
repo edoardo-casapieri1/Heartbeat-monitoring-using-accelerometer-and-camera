@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/blue"
+android:clickable="true"
+android:orientation="vertical"
+android:focusable="true" >
+
+
+
+
+
+<Button
+    android:id="@+id/buttonStartCAM"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="360dp"
+    android:onClick="startPPG"
+    android:text="@string/startMeasurement"
+    app:backgroundTint="@color/red" />
+
+
+    <TextView
+        android:id="@+id/titleInstruction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="@string/titleInstructions"
+        android:textSize="20sp"
+        android:visibility="visible"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/instructions"
+        android:layout_width="323dp"
+        android:layout_height="348dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:text="@string/PPGInstructions"
+        android:visibility="visible"
+        tools:visibility="visible" />
+
+
+
+
+
+</RelativeLayout>

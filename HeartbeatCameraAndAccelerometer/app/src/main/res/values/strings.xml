@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">HeartBeat</string>
+    <string name="heartPic">heart</string>
+    <string name="cameraButton">Camera</string>
+    <string name="history">History</string>
+    <string name="accelerometerButton">Accelerometer</string>
+    <string name="startMeasurement">Start measurement</string>
+    <string name="measurementCaption">Your heart rate is:</string>
+    <string name="measuringCaption">Measuring…</string>
+    <string name="plotCaption">In order for the measurement to be accurate, you should be able to see periodic peaks in the plot above.\nIf not, try repeating the measurement with a different filter setting.</string>
+    <string name="noiseFiltering">Noise filtering</string>
+    <string name="low">Low</string>
+    <string name="high">High</string>
+    <string name="titleInstructions">Instructions:</string>
+    <string name="SCGInstructions">Place your device flat on your chest, as close as possible to your heart. You should try to stay as still as possible while your heart rate is being measured.\n\nThis operation will take 10 seconds. When you\'re ready, click on \"Start measurement\".</string>
+    <string name="PPGInstructions">Place your finger on the rear camera ,covering the flash as well .after 30 seconds in case of successful measurement the device will  emit a beep sound and the heart rate measurement will be displayed on the screen, in the other case the device will ask it to try again the measurement  .\n You should try to keep the device flat on a solid surface and avoid to move your finger as your heart rate is being measured.\n\nThis operation will take 30 seconds. When you\'re ready, click on \"Start measurement\".</string>
+    <string name="currentHeartRate">%1$s BPM</string>
+    <string name="heart_rate_result_string">Your current heart rate is</string>
+    <string name="bpmHistory">BPM</string>
+    <string name="typeHistory">Type</string>
+    <string name="timeHistory">Time</string>
+    <string name="deleteHistoryItem">Delete</string>
+</resources>

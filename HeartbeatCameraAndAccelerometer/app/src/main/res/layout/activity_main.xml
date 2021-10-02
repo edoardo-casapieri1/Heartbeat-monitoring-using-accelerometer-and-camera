@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:contentDescription="@string/heartPic"
+        app:srcCompat="@drawable/heartpic" />
+
+    <Button
+        android:id="@+id/buttonCamera"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="300dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/cameraButton"
+        app:backgroundTint="@color/red"
+        android:drawableRight="@drawable/camera"
+        android:drawableEnd="@drawable/camera" />
+
+    <Button
+        android:id="@+id/history"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="520dp"
+        android:drawableEnd="@drawable/history"
+        android:drawableRight="@drawable/history"
+        android:onClick="startHistory"
+        android:text="@string/history"
+        app:backgroundTint="@color/red" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="410dp"
+        android:drawableEnd="@drawable/cartesian"
+        android:drawableRight="@drawable/cartesian"
+        android:onClick="startSCG"
+        android:text="@string/accelerometerButton"
+        app:backgroundTint="@color/red" />
+
+
+</RelativeLayout>
